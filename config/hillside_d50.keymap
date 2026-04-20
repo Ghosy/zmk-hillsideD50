@@ -30,14 +30,14 @@
             key-positions = <15 16>;
             layers = <0 2 1>;
             require-prior-idle-ms = <150>;
-            timeout-ms = <280>;
+            timeout-ms = <25>;
         };
 
         LHR_META {
             bindings = <&kp LEFT_META>;
             key-positions = <14 15>;
             layers = <0 1 2>;
-            timeout-ms = <280>;
+            timeout-ms = <25>;
             require-prior-idle-ms = <150>;
         };
 
@@ -45,7 +45,7 @@
             bindings = <&kp LEFT_ALT>;
             key-positions = <13 14>;
             layers = <0 1 2>;
-            timeout-ms = <280>;
+            timeout-ms = <25>;
             require-prior-idle-ms = <150>;
         };
 
@@ -54,14 +54,14 @@
             key-positions = <13 16>;
             layers = <0 1 2>;
             require-prior-idle-ms = <150>;
-            timeout-ms = <280>;
+            timeout-ms = <25>;
         };
 
         RHR_CTRL {
             bindings = <&kp RCTRL>;
             key-positions = <19 20>;
             layers = <0 1 2>;
-            timeout-ms = <280>;
+            timeout-ms = <25>;
             require-prior-idle-ms = <150>;
         };
 
@@ -69,7 +69,7 @@
             bindings = <&kp RIGHT_META>;
             key-positions = <20 21>;
             layers = <0 1 2>;
-            timeout-ms = <280>;
+            timeout-ms = <25>;
             require-prior-idle-ms = <150>;
         };
 
@@ -77,7 +77,7 @@
             bindings = <&kp RIGHT_ALT>;
             key-positions = <21 22>;
             layers = <0 1 2>;
-            timeout-ms = <280>;
+            timeout-ms = <25>;
             require-prior-idle-ms = <150>;
         };
 
@@ -85,7 +85,7 @@
             bindings = <&kp RA(RCTRL)>;
             key-positions = <22 19>;
             layers = <0 1 2>;
-            timeout-ms = <280>;
+            timeout-ms = <25>;
             require-prior-idle-ms = <150>;
         };
 
@@ -93,7 +93,7 @@
             bindings = <&kp LG(LCTRL)>;
             key-positions = <16 15 14>;
             layers = <0 1 2>;
-            timeout-ms = <280>;
+            timeout-ms = <25>;
             require-prior-idle-ms = <150>;
         };
 
@@ -101,7 +101,7 @@
             bindings = <&kp LA(LEFT_META)>;
             key-positions = <14 13 15>;
             layers = <0 1 2>;
-            timeout-ms = <280>;
+            timeout-ms = <25>;
             require-prior-idle-ms = <150>;
         };
 
@@ -109,7 +109,7 @@
             bindings = <&kp LA(LG(LCTRL))>;
             key-positions = <13 14 15 16>;
             layers = <0 1 2>;
-            timeout-ms = <280>;
+            timeout-ms = <25>;
             require-prior-idle-ms = <150>;
         };
 
@@ -117,7 +117,7 @@
             bindings = <&kp RG(RCTRL)>;
             key-positions = <19 20 21>;
             layers = <0 1 2>;
-            timeout-ms = <280>;
+            timeout-ms = <25>;
             require-prior-idle-ms = <150>;
         };
 
@@ -125,7 +125,7 @@
             bindings = <&kp RA(RIGHT_META)>;
             key-positions = <20 21 22>;
             layers = <0 1 2>;
-            timeout-ms = <280>;
+            timeout-ms = <25>;
             require-prior-idle-ms = <150>;
         };
 
@@ -133,7 +133,7 @@
             bindings = <&kp RA(RG(RCTRL))>;
             key-positions = <19 20 21 22>;
             layers = <0 1 2>;
-            timeout-ms = <280>;
+            timeout-ms = <25>;
             require-prior-idle-ms = <150>;
         };
     };
