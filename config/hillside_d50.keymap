@@ -22,6 +22,58 @@
 #define Redo   LC(Y)
 
 / {
+    combos {
+        compatible = "zmk,combos";
+
+        LHR_CTRL {
+            bindings = <&kp LCTRL>;
+            key-positions = <15 16>;
+            layers = <0 2 1>;
+        };
+
+        LHR_META {
+            bindings = <&kp LEFT_META>;
+            key-positions = <14 15>;
+            layers = <0 1 2>;
+        };
+
+        LHR_ALT {
+            bindings = <&kp LEFT_ALT>;
+            key-positions = <13 14>;
+            layers = <0 1 2>;
+        };
+
+        LHR_CTR_ALT {
+            bindings = <&kp LA(LCTRL)>;
+            key-positions = <13 16>;
+            layers = <0 1 2>;
+        };
+
+        RHR_CTRL {
+            bindings = <&kp RCTRL>;
+            key-positions = <19 20>;
+            layers = <0 1 2>;
+        };
+
+        RHR_META {
+            bindings = <&kp RIGHT_META>;
+            key-positions = <20 21>;
+            layers = <0 1 2>;
+        };
+
+        RHR_ALT {
+            bindings = <&kp RIGHT_ALT>;
+            key-positions = <21 22>;
+            layers = <0 1 2>;
+        };
+
+        RHR_CTRL_ALT {
+            bindings = <&kp RA(RCTRL)>;
+            key-positions = <22 19>;
+            layers = <0 1 2>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
